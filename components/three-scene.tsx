@@ -1,7 +1,7 @@
 "use client"
 
 import { useRef } from "react"
-import { Canvas, useFrame } from "@react-three/fiber"
+import { Canvas, useFrame, RootState } from "@react-three/fiber"
 import { OrbitControls } from "@react-three/drei"
 import * as THREE from "three"
 
@@ -10,7 +10,7 @@ import ParticlesAnimation from "./particles-animation"
 function Scene() {
   const groupRef = useRef<THREE.Group | null>(null)
 
-  useFrame(({ mouse }) => {
+  useFrame(({ mouse }: RootState) => {
     if (groupRef.current) {
       groupRef.current.rotation.y = THREE.MathUtils.lerp(groupRef.current.rotation.y, mouse.x * 0.5, 0.1)
       groupRef.current.rotation.x = THREE.MathUtils.lerp(groupRef.current.rotation.x, mouse.y * 0.5, 0.1)

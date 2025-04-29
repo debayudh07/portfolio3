@@ -44,7 +44,7 @@ function Particles({ count = 5000 }) {
     return [positions, scales]
   }, [count])
 
-  useFrame((state) => {
+  useFrame((state: { mouse: { x: number; y: number }; viewport: { width: number; height: number } }) => {
     particles.forEach((particle, i) => {
       let { t } = particle
       const { factor, speed, xFactor, yFactor, zFactor } = particle

@@ -9,7 +9,7 @@ function Box({ position, color }: { position: [number, number, number]; color: T
   const mesh = useRef<THREE.Mesh>(null!)
   const [hovered, setHovered] = useState(false)
 
-  useFrame((state, delta) => {
+  useFrame((state: any, delta: number) => {
     mesh.current.rotation.x += delta * 0.2
     mesh.current.rotation.y += delta * 0.3
   })
