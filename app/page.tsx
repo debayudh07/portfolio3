@@ -242,11 +242,31 @@ export default function Home() {
 
                 <CardLightning>
                 <ProjectCard
+                  title="Aarya - Women Safety Application"
+                  description="AI-powered women safety application featuring real-time threat detection, emergency alerts, and safe route navigation."
+                  tags={["TensorFlow", "React", "Node.js", "Computer Vision", "Leaflet"]}
+                  image="/aarya.png"
+                  githubLink="https://github.com/debayudh07/womansafety"
+                />
+                </CardLightning>
+
+                <CardLightning>
+                <ProjectCard
                   title="NFTix - Blockchain Ticketing"
                   description="A decentralized ticketing platform that converts event tickets into NFTs, ensuring authenticity and enabling secure resale."
                   tags={["Solidity", "Ethereum", "Next.js", "TypeScript", "Smart Contracts"]}
                   image="/nftix.png"
                   githubLink="https://github.com/debayudh07/nftix"
+                />
+                </CardLightning>
+
+                <CardLightning>
+                <ProjectCard
+                  title="College Grievance Portal"
+                  description="Built and deployed a full-stack grievance management system for college students using Next.js, hosted on Linux VM with Nginx."
+                  tags={["Next.js", "Linux", "Nginx", "TypeScript"]}
+                  image="/grievance.png"
+                  githubLink="https://github.com/debayudh07/grievance-redressal-portal"
                 />
                 </CardLightning>
             </div>
