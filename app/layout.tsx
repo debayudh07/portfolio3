@@ -7,6 +7,10 @@ export const metadata: Metadata = {
   description:
     "Portfolio of Debayudh Basu, a Blockchain Developer and Full Stack Developer specializing in Web3 technologies.",
   generator: "Next.js",
+  icons: {
+    icon: '/debayudh.jpeg',
+    apple: '/debayudh.jpeg',
+  }
 }
 
 export default function RootLayout({

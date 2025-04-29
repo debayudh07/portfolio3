@@ -59,6 +59,7 @@ const skillsData = {
     { name: "Web3.js", proficiency: 85 },
     { name: "Ethers.js", proficiency: 80 },
     { name: "Hardhat", proficiency: 75 },
+    { name: "Wagmi", proficiency: 65 },
     { name: "Git", proficiency: 90 },
   ],
   "Databases": [
