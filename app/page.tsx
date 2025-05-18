@@ -221,6 +221,17 @@ export default function Home() {
 
                 <CardLightning>
                 <ProjectCard
+                  title="AIAX - AI Financial Assistant"
+                  description="AI-powered decentralized financial assistant that provides personalized investment advice, portfolio analysis, and market predictions."
+                  tags={["Gemini", "Blockchain", "React", "Node.js", "Smart Contracts","Base-sepolia"]}
+                  image="/aiax.png"
+                  githubLink="https://github.com/debayudh07/hack"
+                  liveLink="https://aiax.vercel.app/"
+                />
+                </CardLightning>
+
+                <CardLightning>
+                <ProjectCard
                   title="Docease - AI Medical Platform"
                   description="Medical platform combining blockchain for data security and AI for diagnosis assistance."
                   tags={["TensorFlow", "Blockchain", "Python", "React", "AI"]}
